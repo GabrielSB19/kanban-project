@@ -1,0 +1,28 @@
+.kanban {
+  display: flex;
+  gap: 20px;
+  width: 80%;
+  margin: auto;
+}
+
+@media (max-width: 732px) {
+  .kanban {
+    width: 100%;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+  }
+}
+
+.kanban__section {
+  width: 30%;
+  background-color: #111111;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.kanban__section__title {
+  font-weight: 700;
+}
